@@ -1,0 +1,28 @@
+# 데이터
+data/*
+!data/README.md
+images/
+*.zip
+
+# 모델 가중치 / 임베딩
+*.pth
+*.pt
+*.pkl
+
+# 출력물
+outputs/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+__MACOSX/
+
+# Secrets
+.env
+kaggle.json

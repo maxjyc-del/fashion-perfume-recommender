@@ -1,0 +1,44 @@
+{
+  "Romantic": {
+    "floral": 0.35061,
+    "intense": 0.127928,
+    "natural": 0.157998,
+    "niche": 0.09668,
+    "romantic": 0.266783
+  },
+  "Casual": {
+    "floral": 0.205964,
+    "intense": 0.131459,
+    "natural": 0.301761,
+    "niche": 0.184787,
+    "romantic": 0.17603
+  },
+  "Sporty": {
+    "floral": 0.145126,
+    "intense": 0.096133,
+    "natural": 0.433129,
+    "niche": 0.204626,
+    "romantic": 0.120986
+  },
+  "Formal": {
+    "floral": 0.149531,
+    "intense": 0.409816,
+    "natural": 0.106823,
+    "niche": 0.150316,
+    "romantic": 0.183514
+  },
+  "Street": {
+    "floral": 0.120211,
+    "intense": 0.172242,
+    "natural": 0.19238,
+    "niche": 0.393613,
+    "romantic": 0.121553
+  },
+  "Vintage": {
+    "floral": 0.156841,
+    "intense": 0.415732,
+    "natural": 0.101072,
+    "niche": 0.130639,
+    "romantic": 0.195717
+  }
+}
