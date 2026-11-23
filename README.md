@@ -6,23 +6,12 @@
 
 | 항목 | 내용 |
 |---|---|
-| 소속 | 데이터 사이언스 학회 Parrot 14기 — DL 프로젝트 (3조) |
+| 소속 | 데이터 사이언스 학회 Parrot 14기 — DL 프로젝트 |
 | 기간 | 3주 <!-- TODO: 2026.MM.DD ~ 2026.MM.DD --> |
-| 팀 | 4명 — 이수아(팀장), 김태현, 정재윤, 황서현 |
 | 최종 모델 | **EfficientNet-B0 + 매핑 행렬 + CLIP 보정** |
 | 결과 | Recall@3 **0.728**, NDCG@5 **0.862** (Baseline CNN 대비 Recall@3 2.2배) |
 | 스택 | Python, PyTorch, torchvision, timm, OpenAI CLIP, scikit-learn, pandas |
 
-## 👥 팀 구성 및 역할
-
-| 이름 | 역할 |
-|---|---|
-| **정재윤** | 이미지 분류 모델(ResNet-18, EfficientNet-B0) 구조 설계 <!-- TODO: 실제 담당 부분으로 구체화 --> |
-| 김태현 | 이미지 분류 모델(ResNet-18, EfficientNet-B0) 구조 설계 |
-| 이수아 (팀장) | 데이터 전처리, CLIP 추천 구조 설계 |
-| 황서현 | 데이터 전처리, CLIP 추천 구조 설계 |
-
-주제 탐색·데이터 조사(1주차)와 학습·테스트·발표 준비(3주차)는 팀 전체가 함께 진행했습니다.
 
 ---
 
