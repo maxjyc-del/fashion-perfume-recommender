@@ -135,7 +135,7 @@ EfficientNet-B0 클래스별 성능 (Validation)
 ### ResNet-18 + CLIP 추천 결과 ([results/pred_hybrid_clip_resnet.csv](results/pred_hybrid_clip_resnet.csv))
 ResNet-18 노트북은 24,063개 전체가 아닌 **후보 향수 10개** 안에서 매핑 점수(0.45)와 CLIP 점수(0.55)를 결합해 Top-5를 고릅니다. 예측 스타일은 Formal 3,636장 · Casual 1,347장 · Sporty 872장 · Vintage 260장으로 Formal에 치우쳐 있고, 6,115장 중 5,696장(93%)의 Top-1이 `secret-obsession`입니다.
 
-## 6. 회고 및 개선 방향
+## 6. 개선 방향
 
 - **코드 관리**: 평가 코드를 메신저로만 공유해 일부가 남지 않았습니다. 다음에는 공유 레포에서 처음부터 버전 관리할 계획입니다.
 - **ResNet-18 성능**: 다른 라벨, 짧은 학습(4 epoch), 매핑 순서 오류, 10개로 제한된 후보로 평가되어 공정한 비교가 아니었습니다. 같은 조건으로 재평가가 필요합니다.
